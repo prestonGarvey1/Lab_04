@@ -13,6 +13,7 @@ public class Task2 {
         System.out.println("Please enter the price of your purchase");
         price = scan.nextDouble();
 
+        //Calculate final price after tax
         tax = price * taxRate;
         finalPrice = tax + price;
 

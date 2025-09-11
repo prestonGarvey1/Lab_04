@@ -19,7 +19,6 @@ public class Task3 {
         winterCost = scan.nextDouble();
 
         //Add costs together and print total cost
-
         totalServiceCost = springCost + fallCost + summerCost + winterCost;
 
         System.out.println("Your total service cost is $"+totalServiceCost+" for all four seasons.");
